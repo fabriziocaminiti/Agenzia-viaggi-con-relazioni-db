@@ -10903,6 +10903,54 @@ a.text-dark:focus {
   }
 }
 
+:root {
+  --main-color: blue;
+}
+
+.border-bottom-main {
+  border-bottom: 4px solid var(--main-color);
+  border-radius: 0px;
+}
+
+.navbar-light .navbar-toggler {
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-nav {
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.mr-3,
+.mx-3 {
+  margin-right: 1rem !important;
+}
+
+a:hover {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.hover {
+  border-bottom: 4px solid;
+  border-radius: 0px;
+  -webkit-text-emphasis-color: black;
+          text-emphasis-color: black;
+}
+
+.hover:hover {
+  border-bottom: 2px solid var(--main-color);
+  transition: 0.4s;
+}
+
 header {
   position: relative;
   background-color: black;

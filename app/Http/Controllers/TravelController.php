@@ -35,7 +35,7 @@ class TravelController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
     }
 
     /**

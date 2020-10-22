@@ -1,15 +1,14 @@
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light t-fixed">
-  <a class="navbar-brand" href="#"><i class="fas fa-plane fa-3x"></i></a>
+<nav id="navbar" class="navbar navbar-expand-lg bg-light fixed-top border-bottom-main">
+  <a class="navbar-brand" href="#"><i class="fas fa-umbrella-beach fa-3x"></i></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <i class="fas fa-users fa-2x"></i>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-link" href="#">Scegli la meta</a>
-      <a class="nav-link" href="#">Prezzi</a>
-      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      <a class="hover mr-3" class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="hover mr-3" class="nav-link" href="#">Scegli la meta</a>
+      <a class="hover mr-3" class="nav-link" href="#">Prezzi</a>
     </div>
      <!-- Right Side Of Navbar -->
      <ul class="navbar-nav ml-auto">
