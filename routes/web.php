@@ -25,3 +25,6 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('ho
 Route::get('/sedi',[App\Http\Controllers\LocationController::class, 'index'])->name('locations.index');
 Route::get('/registrati',[App\Http\Controllers\LocationController::class, 'create'])->name('locations.create');
 Route::post('/inviato',[App\Http\Controllers\LocationController::class, 'store'])->name('locations.store');
+Route::delete('/sedi/elimina{location}',[App\Http\Controllers\LocationController::class, 'destroy'])->name('locations.destroy');
+
+

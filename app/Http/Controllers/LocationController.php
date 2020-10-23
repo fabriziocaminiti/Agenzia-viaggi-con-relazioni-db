@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Location;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class LocationController extends Controller
@@ -12,10 +13,11 @@ class LocationController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request, Location $location, User $user)
     {
         $locations=Location::all();
-        return view('locations.sedi',compact('locations'));
+        $users= User::all();
+        return view('locations.index',compact('locations','users'));
     }
 
     /**
@@ -25,7 +27,8 @@ class LocationController extends Controller
      */
     public function create()
     {
-     view('locations.create');   
+        $users=User::all();
+     return view('locations.create',compact('users'));   
     }
 
     /**
@@ -36,11 +39,12 @@ class LocationController extends Controller
      */
     public function store(Request $request)
     {
-        $location = new Location();
-        $location->località=$request->input('località');
+       $location = new Location();
+       $location->località=$request->input('località');
        $location->prezzo=$request->input('prezzo');
        $location->hotel=$request->input('hotel');
        $location->img=$request->file('img')->store('public/img');
+       $location->user_id=$request->input('user_id');
 
 
        $location->save();
@@ -90,6 +94,7 @@ class LocationController extends Controller
      */
     public function destroy(Location $location)
     {
-        //
+        $location->delete();
+        return redirect()->back()->with('message','complimenti hai aleiminato la prenotazione');
     }
 }

@@ -6,9 +6,9 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="hover mr-3" class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="hover mr-3" class="nav-link active" href="{{route('home')}}">Home <span class="sr-only">(current)</span></a>
       <a class="hover mr-3" class="nav-link" href="{{route('locations.create')}}">Scegli la meta</a>
-      <a class="hover mr-3" class="nav-link" href="#">Prezzi</a>
+      <a class="hover mr-3" class="nav-link" href="{{route('locations.index')}}">Prenotazioni</a>
     </div>
      <!-- Right Side Of Navbar -->
      <ul class="navbar-nav ml-auto">

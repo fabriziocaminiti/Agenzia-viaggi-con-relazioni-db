@@ -1,6 +1,9 @@
 @extends('layouts.app')
 @section('content')
-<header>
+<div class="container py-5 mt-5">
+    <div class="row">
+        <div class="col-md-12">
+        <header>
   <div class="overlay"></div>
   <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
     <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
@@ -9,7 +12,7 @@
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
         <h1 class="display-3">Agenzia viaggi Rossi</h1>
-        <p class="lead mb-0">viaggia con la mente prima che con il corpo</p>
+        <p class="lead mb-0">perchè per viaggiare serve la testa non il corpo</p>
       </div>
     </div>
   </div>
@@ -27,6 +30,10 @@
         </p>
       </div>
     </div>
-  </div>    
+  </div>
 </section>
+            
+        </div>
+    </div>
+</div>
 @endsection

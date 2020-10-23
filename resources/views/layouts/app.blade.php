@@ -10,7 +10,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="https://kit.fontawesome.com/1778af66f3.js" crossorigin="anonymous"></script>
 
     <!-- Fonts -->
@@ -23,12 +23,10 @@
 <body>
     <div id="app">
         @include('includes._navbar')
-        <main class="py-5">
+        <main class="py-4">
             @yield('content')
         </main>
         @include('includes._footer')
     </div>
-</div>
 </body>
-
 </html>
