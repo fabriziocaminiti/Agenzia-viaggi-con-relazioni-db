@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Travel;
+use App\Models\Location;
 use Illuminate\Http\Request;
 
-class TravelController extends Controller
+class LocationController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,8 @@ class TravelController extends Controller
      */
     public function index()
     {
-        //
+        $locations=Location::all();
+        return view('locations.sedi',compact('locations'));
     }
 
     /**
@@ -24,7 +25,7 @@ class TravelController extends Controller
      */
     public function create()
     {
-        //
+     view('locations.create');   
     }
 
     /**
@@ -35,16 +36,25 @@ class TravelController extends Controller
      */
     public function store(Request $request)
     {
-        
+        $location = new Location();
+        $location->località=$request->input('località');
+       $location->prezzo=$request->input('prezzo');
+       $location->hotel=$request->input('hotel');
+       $location->img=$request->file('img')->store('public/img');
+
+
+       $location->save();
+
+        return redirect()->back()->with('message','Complimenti per la scelta');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Travel  $travel
+     * @param  \App\Models\Location  $location
      * @return \Illuminate\Http\Response
      */
-    public function show(Travel $travel)
+    public function show(Location $location)
     {
         //
     }
@@ -52,10 +62,10 @@ class TravelController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Travel  $travel
+     * @param  \App\Models\Location  $location
      * @return \Illuminate\Http\Response
      */
-    public function edit(Travel $travel)
+    public function edit(Location $location)
     {
         //
     }
@@ -64,10 +74,10 @@ class TravelController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Travel  $travel
+     * @param  \App\Models\Location  $location
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Travel $travel)
+    public function update(Request $request, Location $location)
     {
         //
     }
@@ -75,10 +85,10 @@ class TravelController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Travel  $travel
+     * @param  \App\Models\Location  $location
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Travel $travel)
+    public function destroy(Location $location)
     {
         //
     }

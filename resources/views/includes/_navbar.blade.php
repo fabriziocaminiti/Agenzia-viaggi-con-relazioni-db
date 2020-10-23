@@ -7,7 +7,7 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="hover mr-3" class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="hover mr-3" class="nav-link" href="#">Scegli la meta</a>
+      <a class="hover mr-3" class="nav-link" href="{{route('locations.create')}}">Scegli la meta</a>
       <a class="hover mr-3" class="nav-link" href="#">Prezzi</a>
     </div>
      <!-- Right Side Of Navbar -->
