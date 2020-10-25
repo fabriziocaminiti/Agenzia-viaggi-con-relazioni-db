@@ -10907,6 +10907,10 @@ a.text-dark:focus {
   --main-color: blue;
 }
 
+.card-img-bottom {
+  background: linear-gradient(white);
+}
+
 .btn {
   background-color: var(--main-color);
 }

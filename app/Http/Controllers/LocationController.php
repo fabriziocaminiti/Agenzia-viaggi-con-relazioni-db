@@ -71,7 +71,8 @@ class LocationController extends Controller
      */
     public function edit(Location $location)
     {
-        //
+      
+        return view('locations.edit',compact('location'));
     }
 
     /**
@@ -83,7 +84,8 @@ class LocationController extends Controller
      */
     public function update(Request $request, Location $location)
     {
-        //
+        $location->update($request->all());
+        return redirect()->back()->with('message','Complimenti ha modificato la tua prenotazione');
     }
 
     /**
@@ -95,6 +97,6 @@ class LocationController extends Controller
     public function destroy(Location $location)
     {
         $location->delete();
-        return redirect()->back()->with('message','complimenti hai aleiminato la prenotazione');
+        return redirect()->back()->with('message','Hai eliminato la prenotazione');
     }
 }
