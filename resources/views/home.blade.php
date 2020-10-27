@@ -26,24 +26,27 @@
       <div class="row"> 
       <div class="container">
             <div class="row">
-                <div class="card border-dark col-md mr-3 mb-3 ml-3 shadow">
+                <div class="card mt-3 border-dark col-md mr-3 mb-3 ml-3 shadow">
                   <div class="row">
                     <div class="col-6">
-                <h3>Madrid</h3>
+                <h3 class="mt-3">Madrid</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
                 </div>
-                <div class="col-6 ml-auto">
+                <div class="col-6 ml-auto mt-3">
                 <ul>
                   <li><em>"Esperienza fantastica, mi sono trovata benissimo"</em> - Lorena</li>
                   <li><em>"Soggiorno indimenticabile"</em> - Francesco</li>
                 </ul>
                 </div>
+                <div><p class="ml-3">Hotel</p></div>
                 <div class="col-6">
+                <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
                 </div>
+                <div><a class="btn text-white mt-4 mb-3" href="{{route('mailcreate')}}" type="submit" role="button"> Info</a></div>
                 <div id="carouselMadrid" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -67,24 +70,27 @@
                 </div>
                 </div>
                 </div>
-                <div class=" card border-dark col-md mr-3 mb-3 ml-3">
+                <div class=" card mt-3 border-dark col-md mr-3 mb-3 ml-3">
                   <div class="row">
                     <div class="col-6">
-                  <h3>Parigi</h3>
+                  <h3 class="mt-3">Parigi</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
                   </div>
-                  <div class="col-6 ml-auto">
+                  <div class="col-6 ml-auto mt-3">
                   <ul>
                   <li><em> fantastica, mi sono trovata benissimo - Lorena</em></li>
                   <li><em>Soggiorno indimenticabile - Francesco</em></li>
                 </ul>
                 </div>
+                <div><p class="ml-3">Hotel</p></div>
                 <div class="col-6">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
                 </div>
+                <div><a class="btn text-white mt-4 mb-3" href="{{route('mailcreate')}}" type="submit" role="button"> Info</a></div>
                 <div id="carouselParigi" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -108,24 +114,27 @@
                 </div>
                   </div>
                 </div>
-                <div class=" card border-dark col-md mr-3 mb-3 ml-3">
+                <div class=" card mt-3 border-dark col-md mr-3 mb-3 ml-3">
                   <div class="row">
                     <div class="col-6">
-                  <h3>Roma</h3>
+                  <h3 class="mt-3" >Roma</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
                   </div>
-                  <div class="col-6 ml-auto">
+                  <div class="col-6 ml-auto mt-3">
                   <ul>
                   <li><em>Esperienza fantastica, mi sono trovata benissimo - Lorena</em></li>
                   <li><em>Soggiorno indimenticabile - Francesco</em></li>
                 </ul>
                 </div>
+                <div><p class="ml-3">Hotel</p></div>
                 <div class="col-6">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
                 </div>
+                <div><a class="btn text-white mt-4 mb-3" href="{{route('mailcreate')}}" type="submit" role="button"> Info</a></div>
                 <div id="carouselRoma" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -151,24 +160,27 @@
                 </div>
              </div>
             <div class="row">
-                <div class=" card border-dark col-md mr-3 mb-3 ml-3">
+                <div class="card mt-3 border-dark col-md mr-3 mb-3 ml-3">
                   <div class="row">
                     <div class="col-6">
-                <h3>Hawaii</h3>
+                <h3 class="mt-3">Hawaii</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
                 </div>
-                <div class="col-6 ml-auto">
+                <div class="col-6 ml-auto mt-3">
                 <ul>
                   <li><em>Esperienza fantastica, mi sono trovata benissimo - Lorena</em></li>
                   <li><em>Soggiorno indimenticabile - Francesco</em></li>
                 </ul>
                 </div>
+                <div><p class="ml-3">Hotel</p></div>
                 <div class="col-6">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
                 </div>
+                <div><a class="btn text-white mt-4 mb-3" href="{{route('mailcreate')}}" type="submit" role="button"> Info</a></div>
                 <div id="carouselhawaii" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -192,24 +204,27 @@
                 </div>
                 </div>
                   </div>
-                  <div class=" card border-dark col-md mr-3 mb-3 ml-3">
+                  <div class=" card mt-3 border-dark col-md mr-3 mb-3 ml-3">
                   <div class="row">
                     <div class="col-6">
-                  <h3>Maldive</h3>
+                  <h3 class="mt-3">Maldive</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
                   </div>
-                  <div class="col-6 ml-auto">
+                  <div class="col-6 ml-auto mt-3">
                   <ul>
                   <li><em>Esperienza fantastica, mi sono trovata benissimo - Lorena</em></li>
                   <li><em>Soggiorno indimenticabile - Francesco</em></li>
                 </ul>
                 </div>
+                <div><p class="ml-3">Hotel</p></div>
                 <div class="col-6">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i> 
                 </div>
+                <div><a class="btn text-white mt-4 mb-3" href="{{route('mailcreate')}}" type="submit" role="button"> Info</a></div>
                 <div id="carouselMaldive" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -233,24 +248,27 @@
                 </div>
                   </div>
                   </div>
-                  <div class=" card border-dark col-md mr-3 mb-3 ml-3">
+                  <div class=" card mt-3 border-dark col-md mr-3 mb-3 ml-3">
                   <div class="row">
                     <div class="col-6">
-                  <h3>Lisbona</h3>
+                  <h3 class="mt-3">Lisbona</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
                   </div>
-                  <div class="col-6 ml-auto">
+                  <div class="col-6 ml-auto mt-3">
                   <ul>
                   <li><em>Esperienza fantastica, mi sono trovata benissimo - Lorena</em></li>
                   <li><em>Soggiorno indimenticabile - Francesco</em></li>
                 </ul>
                 </div>
+                <div><p class="ml-3">Hotel</p></div>
                 <div class="col-6">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
                 </div>
+                <div><a class="btn text-white mt-4 mb-3" href="{{route('mailcreate')}}" type="submit" role="button"> Info</a></div>
                 <div id="carouselLisbona" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -276,24 +294,27 @@
                   </div>
               </div>
               <div class="row">
-                  <div class=" card border-dark col-md mr-3 mb-3 ml-3">
+                  <div class="card mt-3 border-dark col-md mr-3 mb-3 ml-3">
                     <div class="row">
                       <div class="col-6">
-                      <h3>Groenlandia</h3>
+                      <h3 class="mt-3">Groenlandia</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
                       </div>
-                      <div class="col-6 ml-auto">
+                      <div class="col-6 ml-auto mt-3">
                       <ul>
                   <li><em>Esperienza fantastica, mi sono trovata benissimo - Lorena</em></li>
                   <li><em>Soggiorno indimenticabile - Francesco</em></li>
                 </ul>
                   </div>
+                  <div><p class="ml-3">Hotel</p></div>
                   <div class="col-6">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
                 </div>
+                <div><a class="btn text-white mt-4 mb-3" href="{{route('mailcreate')}}" type="submit" role="button"> Info</a></div>
                 <div id="carouselGroenlandia" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -317,34 +338,37 @@
                 </div>
                     </div>
                     </div>
-                    <div class=" card border-dark col-md mr-3 mb-3 ml-3">
+                    <div class=" card mt-3 border-dark col-md mr-3 mb-3 ml-3">
                       <div class="row">
                         <div class="col-6">
-                      <h3>New York</h3>
+                      <h3 class="mt-3">New York</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
                       </div>   
-                      <div class="col-6 ml-auto">
+                      <div class="col-6 ml-auto mt-3">
                      <ul>
                   <li><em>Esperienza fantastica, mi sono trovata benissimo - Lorena</em></li>
                   <li><em>Soggiorno indimenticabile - Francesco</em></li>
                 </ul>
                   </div> 
+                  <div><p class="ml-3">Hotel</p></div>
                   <div class="col-6">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>      
                 </div>
+                <div><a class="btn text-white mt-4 mb-3" href="{{route('mailcreate')}}" type="submit" role="button"> Info</a></div>
                 <div id="carouselNewyork" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img class="d-block w-100" width="100" height="200" src="/media/madridristoranti.jpg" alt="First slide">
+                      <img class="d-block w-100" width="100" height="200" src="/media/newyorkristoranti.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" width="100" height="200" src="/media/madridhotel.jpg" alt="Second slide">
+                      <img class="d-block w-100" width="100" height="200" src="/media/newyorkhotel.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" width="100" height="200" src="/media/madridsvago.jpg" alt="Third slide">
+                      <img class="d-block w-100" width="100" height="200" src="/media/newyorksvago.jpg" alt="Third slide">
                     </div>
                   </div>
                   <a class="carousel-control-prev" href="#carouselNewyork" role="button" data-slide="prev">
@@ -358,34 +382,37 @@
                 </div>
                     </div>
                   </div>
-                    <div class=" card border-dark col-md mr-3 mb-3 ml-3">
+                    <div class=" card mt-3 border-dark col-md mr-3 mb-3 ml-3">
                       <div class="row">
                         <div class="col-6">
-                      <h3>Las Vegas</h3>
+                      <h3 class="mt-3">Las Vegas</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
                   </div>  
-                  <div class="col-6 ml-auto">
+                  <div class="col-6 ml-auto mt-3">
                      <ul>
                   <li><em>Esperienza fantastica, mi sono trovata benissimo - Lorena</em></li>
                   <li><em>Soggiorno indimenticabile - Francesco</em></li>
                 </ul>
                   </div>  
+                  <div><p class="ml-3">Hotel</p></div>
                   <div class="col-6">
+                <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
                 </div>
+                <div><a class="btn text-white mt-4 mb-3" href="{{route('mailcreate')}}" type="submit" role="button"> Info</a></div>
                 <div id="carouselLasvegas" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img class="d-block w-100" width="100" height="200" src="/media/madridristoranti.jpg" alt="First slide">
+                      <img class="d-block w-100" width="100" height="200" src="/media/lasvegasristoranti.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" width="100" height="200" src="/media/madridhotel.jpg" alt="Second slide">
+                      <img class="d-block w-100" width="100" height="200" src="/media/lasvegashotel.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" width="100" height="200" src="/media/madridsvago.jpg" alt="Third slide">
+                      <img class="d-block w-100" width="100" height="200" src="/media/lasvegassvago.jpg" alt="Third slide">
                     </div>
                   </div>
                   <a class="carousel-control-prev" href="#carouselLasvegas" role="button" data-slide="prev">

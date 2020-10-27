@@ -19,6 +19,8 @@ use App\Http\Controllers\LocationController;
 Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/form',[App\Http\Controllers\HomeController::class, 'create'])->name('mailcreate');
+Route::post('/invio',[App\Http\Controllers\HomeController::class, 'store'])->name('store');
 
 //locations routes
 

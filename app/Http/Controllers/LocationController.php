@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Location;
 use App\Models\User;
+use App\Mail\Booking;
+use App\Models\Location;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class LocationController extends Controller
 {
@@ -49,7 +51,7 @@ class LocationController extends Controller
 
        $location->save();
 
-        return redirect()->back()->with('message','Complimenti per la scelta');
+       return redirect()->back()->with('message','Complimenti per la scelta');  
     }
 
     /**
