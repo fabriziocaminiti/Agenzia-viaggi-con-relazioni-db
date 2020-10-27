@@ -21,16 +21,388 @@
 
 <section class="my-5">
   <div class="container">
-    <div class="row">
-      <div class="col-md-8 mx-auto">
-        <p>The HTML5 video element uses an mp4 video as a source. Change the source video to add in your own background! The header text is vertically centered using flex utilities that are build into Bootstrap 4.</p>
-        <p>The overlay color can be changed by changing the <code>background-color</code> of the <code>.overlay</code> class in the CSS.</p>
-        <p>Set the mobile fallback image in the CSS by changing the background image of the header element within the media query at the bottom of the CSS snippet.</p>
-        <p class="mb-0">
-          Created by <a href="https://startbootstrap.com">Start Bootstrap</a>
-        </p>
+    <h3>Scorri i nostri pacchetti vacanze</h3>  
+      <hr style="background-color: blue;">
+      <div class="row"> 
+      <div class="container">
+            <div class="row">
+                <div class="card border-dark col-md mr-3 mb-3 ml-3 shadow">
+                  <div class="row">
+                    <div class="col-6">
+                <h3>Madrid</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
+                </div>
+                <div class="col-6 ml-auto">
+                <ul>
+                  <li><em>"Esperienza fantastica, mi sono trovata benissimo"</em> - Lorena</li>
+                  <li><em>"Soggiorno indimenticabile"</em> - Francesco</li>
+                </ul>
+                </div>
+                <div class="col-6">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div id="carouselMadrid" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" width="100" height="200" src="/media/madridristoranti.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/madridhotel.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/madridsvago.jpg" alt="Third slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselMadrid" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselMadrid" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                </div>
+                </div>
+                <div class=" card border-dark col-md mr-3 mb-3 ml-3">
+                  <div class="row">
+                    <div class="col-6">
+                  <h3>Parigi</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
+                  </div>
+                  <div class="col-6 ml-auto">
+                  <ul>
+                  <li><em> fantastica, mi sono trovata benissimo - Lorena</em></li>
+                  <li><em>Soggiorno indimenticabile - Francesco</em></li>
+                </ul>
+                </div>
+                <div class="col-6">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div id="carouselParigi" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" width="100" height="200" src="/media/parigihotel.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/parigiristoranti.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/parigisvago.jpg" alt="Third slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselParigi" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselParigi" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                  </div>
+                </div>
+                <div class=" card border-dark col-md mr-3 mb-3 ml-3">
+                  <div class="row">
+                    <div class="col-6">
+                  <h3>Roma</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
+                  </div>
+                  <div class="col-6 ml-auto">
+                  <ul>
+                  <li><em>Esperienza fantastica, mi sono trovata benissimo - Lorena</em></li>
+                  <li><em>Soggiorno indimenticabile - Francesco</em></li>
+                </ul>
+                </div>
+                <div class="col-6">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div id="carouselRoma" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" width="100" height="200" src="/media/romaristoranti.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/romahotel.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/romasvago.jpg" alt="Third slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselRoma" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselRoma" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                  </div>
+                </div>
+             </div>
+            <div class="row">
+                <div class=" card border-dark col-md mr-3 mb-3 ml-3">
+                  <div class="row">
+                    <div class="col-6">
+                <h3>Hawaii</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
+                </div>
+                <div class="col-6 ml-auto">
+                <ul>
+                  <li><em>Esperienza fantastica, mi sono trovata benissimo - Lorena</em></li>
+                  <li><em>Soggiorno indimenticabile - Francesco</em></li>
+                </ul>
+                </div>
+                <div class="col-6">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div id="carouselhawaii" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" width="100" height="200" src="/media/hawaiiristoranti.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/hawaiihotel.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/hawaiisvago.jpg" alt="Third slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselhawaii" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselhawaii" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                </div>
+                  </div>
+                  <div class=" card border-dark col-md mr-3 mb-3 ml-3">
+                  <div class="row">
+                    <div class="col-6">
+                  <h3>Maldive</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
+                  </div>
+                  <div class="col-6 ml-auto">
+                  <ul>
+                  <li><em>Esperienza fantastica, mi sono trovata benissimo - Lorena</em></li>
+                  <li><em>Soggiorno indimenticabile - Francesco</em></li>
+                </ul>
+                </div>
+                <div class="col-6">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div id="carouselMaldive" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" width="100" height="200" src="/media/maldiveristoranti.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/maldivehotel.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/maldivesvago.jpg" alt="Third slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselMaldive" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselMaldive" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                  </div>
+                  </div>
+                  <div class=" card border-dark col-md mr-3 mb-3 ml-3">
+                  <div class="row">
+                    <div class="col-6">
+                  <h3>Lisbona</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
+                  </div>
+                  <div class="col-6 ml-auto">
+                  <ul>
+                  <li><em>Esperienza fantastica, mi sono trovata benissimo - Lorena</em></li>
+                  <li><em>Soggiorno indimenticabile - Francesco</em></li>
+                </ul>
+                </div>
+                <div class="col-6">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div id="carouselLisbona" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" width="100" height="200" src="/media/lisbonaristoranti.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/lisbonahotel.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/lisbonasvago.jpg" alt="Third slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselLisbona" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselLisbona" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                  </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class=" card border-dark col-md mr-3 mb-3 ml-3">
+                    <div class="row">
+                      <div class="col-6">
+                      <h3>Groenlandia</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
+                      </div>
+                      <div class="col-6 ml-auto">
+                      <ul>
+                  <li><em>Esperienza fantastica, mi sono trovata benissimo - Lorena</em></li>
+                  <li><em>Soggiorno indimenticabile - Francesco</em></li>
+                </ul>
+                  </div>
+                  <div class="col-6">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div id="carouselGroenlandia" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" width="100" height="200" src="/media/groenlandiaristoranti.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/groenlandiahotel.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/groenlandiasvago.jpg" alt="Third slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselGroenlandia" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselGroenlandia" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                    </div>
+                    </div>
+                    <div class=" card border-dark col-md mr-3 mb-3 ml-3">
+                      <div class="row">
+                        <div class="col-6">
+                      <h3>New York</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
+                      </div>   
+                      <div class="col-6 ml-auto">
+                     <ul>
+                  <li><em>Esperienza fantastica, mi sono trovata benissimo - Lorena</em></li>
+                  <li><em>Soggiorno indimenticabile - Francesco</em></li>
+                </ul>
+                  </div> 
+                  <div class="col-6">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div id="carouselNewyork" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" width="100" height="200" src="/media/madridristoranti.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/madridhotel.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/madridsvago.jpg" alt="Third slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselNewyork" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselNewyork" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                    </div>
+                  </div>
+                    <div class=" card border-dark col-md mr-3 mb-3 ml-3">
+                      <div class="row">
+                        <div class="col-6">
+                      <h3>Las Vegas</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, molestiae quis</p>
+                  </div>  
+                  <div class="col-6 ml-auto">
+                     <ul>
+                  <li><em>Esperienza fantastica, mi sono trovata benissimo - Lorena</em></li>
+                  <li><em>Soggiorno indimenticabile - Francesco</em></li>
+                </ul>
+                  </div>  
+                  <div class="col-6">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div id="carouselLasvegas" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" width="100" height="200" src="/media/madridristoranti.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/madridhotel.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" width="100" height="200" src="/media/madridsvago.jpg" alt="Third slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselLasvegas" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselLasvegas" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                  </div> 
+                  </div>
+              </div>
+  </div>
+</div>
       </div>
-    </div>
   </div>
 </section>
             

@@ -1,6 +1,6 @@
 
 <nav id="navbar" class="navbar navbar-expand-lg bg-light fixed-top border-bottom-main">
-  <a class="navbar-brand" href="#"><i class="fas fa-umbrella-beach fa-3x"></i></a>
+ <img class="mr-3" width="70" height="70" src="/media/agenzia.png" alt="agenzia">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
   <i class="fas fa-users fa-2x"></i>
   </button>
