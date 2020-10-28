@@ -38,10 +38,9 @@ class HomeController extends Controller
         $email = $request->input('email');
         $dateOfbirth = $request->input('dateOfbirth');
         $job = $request->input('job');
-        $paymentMethod= $request->input('paymentMethod');
         $message = $request->input('message');
  
-        $user = compact('name','phone','dateOfbirth','job','email','paymentMethod','message');
+        $user = compact('name','phone','dateOfbirth','job','email','message');
  
  
         Mail::to($email)->send(new Booking($user));

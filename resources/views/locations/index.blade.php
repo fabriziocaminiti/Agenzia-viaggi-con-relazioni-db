@@ -17,7 +17,8 @@
     <p class="card-text">Tutto al prezzo di : <small class="text-muted">
     {{$location->prezzo}}
     </small></p>
-    <img src="{{Storage::url($location->img)}}" class="card-img-bottom" alt="destinazione" width="150" height="200">
+
+    <img src="{{Storage::url($location->img)}}" class="card-img-bottom" alt="" width="150" height="200">
    
  <div class="row">
    <div class="col-6">

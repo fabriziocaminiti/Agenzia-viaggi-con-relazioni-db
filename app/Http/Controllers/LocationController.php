@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
-use App\Mail\Booking;
 use App\Models\Location;
+use App\Models\Payment;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
+
 
 class LocationController extends Controller
 {
@@ -19,6 +19,7 @@ class LocationController extends Controller
     {
         $locations=Location::all();
         $users= User::all();
+       
         return view('locations.index',compact('locations','users'));
     }
 
@@ -29,7 +30,8 @@ class LocationController extends Controller
      */
     public function create()
     {
-        $users=User::all();
+     $users=User::all();
+     
      return view('locations.create',compact('users'));   
     }
 
@@ -41,15 +43,14 @@ class LocationController extends Controller
      */
     public function store(Request $request)
     {
-       $location = new Location();
-       $location->località=$request->input('località');
-       $location->prezzo=$request->input('prezzo');
-       $location->hotel=$request->input('hotel');
-       $location->img=$request->file('img')->store('public/img');
-       $location->user_id=$request->input('user_id');
 
-
-       $location->save();
+       Location::create([
+           'località'=>$request->input('località'),
+           'prezzo'=>$request->input('prezzo'),
+           'hotel'=>$request->input('hotel'),
+           'img'=>$request->file('img')->store('public/img'),
+           'user_id'=>$request->input('user_id'),
+       ]);
 
        return redirect()->back()->with('message','Complimenti per la scelta');  
     }
@@ -73,8 +74,7 @@ class LocationController extends Controller
      */
     public function edit(Location $location)
     {
-      
-        return view('locations.edit',compact('location'));
+        return view ('locations.edit',compact('location'));
     }
 
     /**
@@ -87,6 +87,7 @@ class LocationController extends Controller
     public function update(Request $request, Location $location)
     {
         $location->update($request->all());
+    
         return redirect()->back()->with('message','Complimenti ha modificato la tua prenotazione');
     }
 

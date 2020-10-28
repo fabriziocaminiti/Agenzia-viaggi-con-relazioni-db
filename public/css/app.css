@@ -10907,6 +10907,27 @@ a.text-dark:focus {
   --main-color: blue;
 }
 
+section {
+  background-image: url("/media/sky.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.mailbody {
+  background-image: url("/media/mailbody.jpg");
+  background-repeat: no-repeat;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.backgroundform {
+  background-image: url("/media/mailbody.jpg");
+}
+
 .card-img-bottom {
   background: linear-gradient(white);
 }

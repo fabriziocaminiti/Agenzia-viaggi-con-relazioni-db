@@ -9,15 +9,15 @@
 <div class="col-12 col-lg-4 text center">
   <p class="small">VIA NAZIONALE N°145 ROMA</p>
   <p class="small">P.IVA 238487669696968696</p>
-  <p class="small">POSIZIONI APERTE</p>
+  <p class="small"></p>
 </div>
 <div class="col-12 col-lg-4">
   <ul>
-    <li>Riparazioni</li>
-    <li>Bollo</li>
-    <li>Controlli olio e freni</li>
-    <li>Permute</li>
-    <li>Consulenze gratuite</li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
 
   </ul>
 
