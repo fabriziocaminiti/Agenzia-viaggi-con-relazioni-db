@@ -1,17 +1,20 @@
 
-<nav id="navbar" class="navbar navbar-expand-lg bg-light fixed-top border-bottom-main">
+<nav id="navbar" class="navbar navbar-expand-lg fixed-top border-bottom-main">
  <img class="mr-3" width="70" height="70" src="/media/agenzia.png" alt="agenzia">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
   <i class="fas fa-users fa-2x"></i>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="hover mr-3" class="nav-link active" href="{{route('home')}}">Home <span class="sr-only">(current)</span></a>
+      <a class="hover mr-3" class="nav-link active" href="{{route('home')}}">Home</a>
       <a class="hover mr-3" class="nav-link" href="{{route('locations.create')}}">Scegli la meta</a>
       <a class="hover mr-3" class="nav-link" href="{{route('locations.index')}}">Prenotazioni</a>
+      <a class="navbar-nav ml-auto hover ml-3" class="nav-link active" href="">Chi siamo</a>
     </div>
      <!-- Right Side Of Navbar -->
-     <ul class="navbar-nav ml-auto">
+     
+
+             <ul class="navbar-nav ml-auto">  
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
@@ -40,7 +43,7 @@
                                     </form>
                                 </div>
                             </li>
-                        @endguest
+                        @endguest    
                     </ul>
   </div>
 </nav>

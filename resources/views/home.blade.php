@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
- 
               <header>
                   <div class="overlay"></div>
                   <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -11,6 +10,12 @@
                       <div class="w-100 text-white">
                         <h1 class="display-3">Agenzia viaggi Rossi</h1>
                         <p class="lead mb-0">perchè per viaggiare serve la testa non il corpo</p>
+                        <div class="col-12 mt-5">
+                        <form class="form-inline my-2 my-lg-0 justify-content-center">
+                        <button class="btn text-white my-2 my-sm-0 mr-2" type="submit">Cerca</button>
+                          <input class="form-control mr-sm-2" type="Cerca" placeholder="Cerca" aria-label="Cerca">
+                        </form>
+                        </div>
                       </div>
                     </div>
                   </div>

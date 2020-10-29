@@ -46,10 +46,13 @@ class LocationController extends Controller
 
        Location::create([
            'località'=>$request->input('località'),
+           'time'=>$request->input('time'),
            'prezzo'=>$request->input('prezzo'),
            'hotel'=>$request->input('hotel'),
            'img'=>$request->file('img')->store('public/img'),
            'user_id'=>$request->input('user_id'),
+           'payment'=>$request->input('payment')
+           
        ]);
 
        return redirect()->back()->with('message','Complimenti per la scelta');  

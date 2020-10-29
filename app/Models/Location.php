@@ -11,7 +11,7 @@ class Location extends Model
 {
     use HasFactory;
 
-    protected $fillable=['prezzo','località','hotel','img','user_id'];
+    protected $fillable=['prezzo','località','hotel','img','user_id','payment','time'];
 
     public function user(){
         return $this->belongsTo(User::class);
