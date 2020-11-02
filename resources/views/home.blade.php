@@ -8,8 +8,8 @@
                   <div class="container h-100">
                     <div class="d-flex h-100 text-center align-items-center">
                       <div class="w-100 text-white">
-                        <h1 class="display-3">Agenzia viaggi Rossi</h1>
-                        <p class="lead mb-0">perchè per viaggiare serve la testa non il corpo</p>
+                        <h1 class="display-3 wow bounceIn">Agenzia viaggi Rossi</h1>
+                        <p class="lead mb-0 wow shake">perchè per viaggiare serve la testa non il corpo</p>
                         <div class="col-12 mt-5">
                         <form class="form-inline my-2 my-lg-0 justify-content-center">
                         <button class="btn text-white my-2 my-sm-0 mr-2" type="submit">Cerca</button>
@@ -29,7 +29,7 @@
                           <hr style="background-color: blue;">
                           <div class="row"> 
                           <div class="container">
-                                <div class="row">
+                                <div class="row wow zoomIn">
                                     <div class="card mt-3 border-dark col-md mr-3 mb-3 ml-3 shadow">
                                       <div class="row">
                                         <div class="col-6">
@@ -163,7 +163,7 @@
                                       </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row wow zoomIn">
                                     <div class="card mt-3 border-dark col-md mr-3 mb-3 ml-3">
                                       <div class="row">
                                         <div class="col-6">
@@ -297,7 +297,7 @@
                                       </div>
                                       </div>
                                   </div>
-                                  <div class="row">
+                                  <div class="row  wow zoomIn">
                                       <div class="card mt-3 border-dark col-md mr-3 mb-3 ml-3">
                                         <div class="row">
                                           <div class="col-6">

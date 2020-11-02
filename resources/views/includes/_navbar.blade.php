@@ -1,6 +1,6 @@
 
 <nav id="navbar" class="navbar navbar-expand-lg fixed-top border-bottom-main">
- <img class="mr-3" width="70" height="70" src="/media/agenzia.png" alt="agenzia">
+ <img class="mr-3 wow rotateIn" width="70" height="70" src="/media/agenzia.png" alt="agenzia">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
   <i class="fas fa-users fa-2x"></i>
   </button>

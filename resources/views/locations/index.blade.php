@@ -4,7 +4,7 @@
 <div class="container py-5 mt-5">
   <div class="row col-12 border-dark">
   @foreach($locations as $location)
-  <div class="card border-dark ml-4 mr-4 col-md-5 mt-3 mb-3 shadow backgroundform">
+  <div class="card border-dark ml-4 mr-4 col-md-5 mt-3 mb-3 shadow backgroundform wow zoomIn">
     
     <h5 class="card-title mt-3">{{$location->località}}</h5>
     <hr class="hr">
