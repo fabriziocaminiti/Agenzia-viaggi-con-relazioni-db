@@ -10,6 +10,11 @@ use Illuminate\Http\Request;
 
 class LocationController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -17,7 +22,7 @@ class LocationController extends Controller
      */
     public function index(Request $request, Location $location, User $user)
     {
-        $locations=Location::all();
+        $locations=auth()->user()->locations;
         $users= User::all();
        
         return view('locations.index',compact('locations','users'));
@@ -43,7 +48,6 @@ class LocationController extends Controller
      */
     public function store(Request $request)
     {
-
        Location::create([
            'località'=>$request->input('località'),
            'time'=>$request->input('time'),
@@ -51,8 +55,7 @@ class LocationController extends Controller
            'hotel'=>$request->input('hotel'),
            'img'=>$request->file('img')->store('public/img'),
            'user_id'=>$request->input('user_id'),
-           'payment'=>$request->input('payment')
-           
+           'payment'=>$request->input('payment')           
        ]);
 
        return redirect()->back()->with('message','Complimenti per la scelta');  

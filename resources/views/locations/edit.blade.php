@@ -9,33 +9,37 @@
                 {{session ('message')}}
             </div>
             @endif
-            <form action="{{route('locations.update',compact('location'))}}" method="POST" enctype="multipart/form-data">
+        <form action="{{route('locations.update',compact('location'))}}" method="POST" enctype="multipart/form-data">
           @csrf
           @method('PUT')
-
             <h2>Modifica i dati alla tua prenotazione</h2>
             <div class="form-group">
-                            <label for="time">Periodo</label>
-                            <hr class="hr">
-                            <input type="text" name="time" value="{{$location->time}}" id="time" aria-describedby="time">
-                            </div> 
+            <label for="time">Periodo</label>
+            <hr class="hr">
+            <input type="text" name="time" value="{{$location->time}}" id="time" aria-describedby="time">
+            </div> 
              <div class="form-group">
-                  <label for="hotel">Hotel</label>
-                  <hr class="hr">
-                           <input type="text" name="hotel" value="{{$location->hotel}}" id="hotel" aria-describedby="hotel">
-             </div> 
+            <label for="hotel">Hotel</label>
+            <hr class="hr">
+            <input type="text" name="hotel" value="{{$location->hotel}}" id="hotel" aria-describedby="hotel">
+            </div> 
             <div class="form-group">
-                 <label for="prezzo">Prezzo</label>
-                 <hr class="hr">
-                            <input type="text" name="prezzo" value="{{$location->prezzo}}" id="prezzo" aria-describedby="prezzo">
+            <label for="prezzo">Prezzo</label>
+            <hr class="hr">
+            <input type="text" name="prezzo" value="{{$location->prezzo}}" id="prezzo" aria-describedby="prezzo">
             </div>
             <div class="form-group">
             <label for="payment">Pagamento</label>
-                <hr class="hr">
-                        <input type="text" name="payment" value="{{$location->payment}}" id="payment" aria-describedby="payment">
+            <hr class="hr">
+            <input type="text" name="payment" value="{{$location->payment}}" id="payment" aria-describedby="payment">
             </div>
-                            <button class="btn btn-apply text-white mb-5" type="submit">Applica</button>
-              </form>
+            <div class="form-group">  
+            <label for="img">Immagine della città che vuoi visitare</label>
+            <hr class="hr">
+            <input type="file" name="img" value="{{$location->img}}" id="img" aria-describedby="img">
+            </div> 
+            <button class="btn btn-apply text-white mb-5" type="submit">Applica</button>
+        </form>
         </div>
     </div>
 </div>
