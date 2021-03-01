@@ -273,14 +273,7 @@
               </div>
             </div>
           </div>
-          <div class="card mt-3 border-dark col-md mr-3 mb-3 ml-3 target1">Form nel quale visualizzare </div>
-          <div class="card mt-3 border-dark col-md mr-3 mb-3 ml-3">
-            <form name="form1">
-              <p><input type="text" name="firstname" placeholder="Name" class="cf_txt mt-3"></p>
-              <p><input type="text" name="email" placeholder="E-mail" class="cf_txt"></p>
-              <p> <input type="submit" id="submit" value="submit" placeholder="Submit" class="cf_submit"></p>
-            </form>
-          </div>
+
         </div>
       </div>
     </div>
