@@ -22,10 +22,10 @@ class LocationController extends Controller
      */
     public function index(Request $request, Location $location, User $user)
     {
-        $locations=auth()->user()->locations;
-        $users= User::all();
-       
-        return view('locations.index',compact('locations','users'));
+        $locations = auth()->user()->locations;
+        $users = User::all();
+
+        return view('locations.index', compact('locations', 'users'));
     }
 
     /**
@@ -35,9 +35,9 @@ class LocationController extends Controller
      */
     public function create()
     {
-     $users=User::all();
-     
-     return view('locations.create',compact('users'));   
+        $users = User::all();
+
+        return view('locations.create', compact('users'));
     }
 
     /**
@@ -48,17 +48,17 @@ class LocationController extends Controller
      */
     public function store(Request $request)
     {
-       Location::create([
-           'località'=>$request->input('località'),
-           'time'=>$request->input('time'),
-           'prezzo'=>$request->input('prezzo'),
-           'hotel'=>$request->input('hotel'),
-           'img'=>$request->file('img')->store('public/img'),
-           'user_id'=>$request->input('user_id'),
-           'payment'=>$request->input('payment')           
-       ]);
+        Location::create([
+            'località' => $request->input('località'),
+            'time' => $request->input('time'),
+            'prezzo' => $request->input('prezzo'),
+            'hotel' => $request->input('hotel'),
+            'img' => $request->file('img')->store('public/img'),
+            'user_id' => $request->input('user_id'),
+            'payment' => $request->input('payment')
+        ]);
 
-       return redirect()->back()->with('message','Complimenti per la scelta');  
+        return redirect()->back()->with('message', 'Complimenti per la scelta');
     }
 
     /**
@@ -80,7 +80,7 @@ class LocationController extends Controller
      */
     public function edit(Location $location)
     {
-        return view ('locations.edit',compact('location'));
+        return view('locations.edit', compact('location'));
     }
 
     /**
@@ -93,8 +93,8 @@ class LocationController extends Controller
     public function update(Request $request, Location $location)
     {
         $location->update($request->all());
-    
-        return redirect()->back()->with('message','Complimenti ha modificato la tua prenotazione');
+
+        return redirect()->back()->with('message', 'Complimenti ha modificato la tua prenotazione');
     }
 
     /**
@@ -106,6 +106,6 @@ class LocationController extends Controller
     public function destroy(Location $location)
     {
         $location->delete();
-        return redirect()->back()->with('message','Hai eliminato la prenotazione');
+        return redirect()->back()->with('message', 'Hai eliminato la prenotazione');
     }
 }

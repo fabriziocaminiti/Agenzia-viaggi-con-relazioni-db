@@ -25,26 +25,29 @@ class HomeController extends Controller
      */
     public function index()
     {
+        echo 1;
         return view('home');
     }
-    public function create(){
+    public function create()
+    {
 
         return view('mailcreate');
     }
 
-    public function store(Request $request){
+    public function store(Request $request)
+    {
         $name = $request->input('name');
         $phone = $request->input('phone');
         $email = $request->input('email');
         $dateOfbirth = $request->input('dateOfbirth');
         $job = $request->input('job');
         $message = $request->input('message');
- 
-        $user = compact('name','phone','dateOfbirth','job','email','message');
- 
- 
+
+        $user = compact('name', 'phone', 'dateOfbirth', 'job', 'email', 'message');
+
+
         Mail::to($email)->send(new Booking($user));
- 
-        return redirect()->back()->with('message','Riceverai informazioni in giornata riguardo questo itinerario');
+
+        return redirect()->back()->with('message', 'Riceverai informazioni in giornata riguardo questo itinerario');
     }
 }
