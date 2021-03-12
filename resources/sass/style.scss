@@ -34,7 +34,7 @@ section{
   border-radius: 0px;
 }
 
-.navbar-light .navbar-toggler {
+.navbar-light.navbar-toggler {
   color:black;
 }
 a {
@@ -90,12 +90,12 @@ header {
     transform: translateX(-50%) translateY(-50%);
   }
   
-  header .container {
+  header.container {
     position: relative;
     z-index: 2;
   }
   
-  header .overlay {
+  header.overlay {
     position: absolute;
     top: 0;
     left: 0;
